@@ -28,9 +28,6 @@ $(()=> {
     $(".nav ").on("click",".burger-icon i",function() {
         $(".nav .nav-lis").toggleClass("flex")
     })
-    $(".nav-lis a:first-child").on("click",function() {
-        $('html, body').animate({scrollTop : $(".search-courses").offset().top -100},200)
-    })
 
     // Main -Container
         $(".main").animate({left: '0'},1000)
