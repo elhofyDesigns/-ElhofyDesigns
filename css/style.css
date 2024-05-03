@@ -889,18 +889,16 @@ footer .tag-cloud , footer .recent-posts {
     flex-direction: column;
     gap: 15px;
     margin-top: 40px;
+    border-bottom: 1px solid rgba(186, 186, 186, 0.2);
 }
 .recent-posts .available-POSTS a {
     position: relative;
     color: var(--color-grey);
     transition: var(--trans-linear);
-    border-bottom: 1px solid rgba(186, 186, 186, 0.2);
     padding-bottom: 10px;
     line-height: 25px;
 }
-.recent-posts .available-POSTS a:before {
-    content: "";
-}
+
 .recent-posts .available-POSTS .posts-footer i {
     font-size: 15px;
     transition: var(--trans-linear);
