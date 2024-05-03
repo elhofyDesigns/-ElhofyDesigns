@@ -468,7 +468,7 @@ a {
 {
     height: 100%;
     position: absolute;
-    background-image: url('images/courses/1.webp');
+    background-image: url('../images/courses/1.webp');
     background-position:center;
     background-size: contain;
     background-attachment: local;
