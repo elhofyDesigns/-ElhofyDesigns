@@ -1023,11 +1023,15 @@ footer .tag-cloud , footer .recent-posts {
         .main .main-desc {
             line-height: 35px;
         }
-        .main .main-desc a {
+         
+    }
+@media (max-width: 300px) {
+    .main .main-desc a {
             margin: 0;
             padding: 0 5px; 
         }
-    }
+    
+}
     /*main*/
     /*Content-Create*/
     @media (max-width:786px) {
