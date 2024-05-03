@@ -197,7 +197,7 @@ a {
 }
 .main .photos {
     position: relative;
-    background-image: url("https://github.com/elhofyDesigns/ElhofyDesigns/images/main-images/1.webp");
+    background-image: url("images/main-images/1.webp");
     background-size: contain;
     background-position: 200px;
     background-color: black;
@@ -468,7 +468,7 @@ a {
 {
     height: 100%;
     position: absolute;
-    background-image: url('https://github.com/elhofyDesigns/ElhofyDesigns/images/courses/1.webp');
+    background-image: url('images/courses/1.webp');
     background-position:center;
     background-size: contain;
     background-attachment: local;
