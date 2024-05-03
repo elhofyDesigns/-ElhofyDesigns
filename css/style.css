@@ -1186,6 +1186,12 @@ footer .tag-cloud , footer .recent-posts {
             
         }
     }
+    @media (max-width: 600px) {
+    .students .qoute {
+            left : 0 !important;
+        }
+    
+    }
     @media (max-width: 383px) {
         .students .qoute {
             display: none;
