@@ -1,0 +1,62 @@
+.medium-font {
+font-family: "Open Sans", sans-serif;
+font-optical-sizing: auto;
+font-weight: 590;
+font-style: normal;
+font-variation-settings:
+"wdth" 100;
+}
+.roboto-bold {
+    font-family: "Freeman", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.roboto {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.big-font {
+font-family: "Archivo Black", sans-serif;
+font-weight: bold;
+font-style: normal;
+}
+.small-font {
+font-family: "Rubik", sans-serif;
+font-optical-sizing: auto;
+font-weight: bold;
+font-style: normal;
+}
+.letter-spacing-1 {
+    letter-spacing: 1px;
+}
+.letter-spacing-2 {
+    letter-spacing: 2px;
+}
+.small-font-normal {
+font-family: "Rubik", sans-serif;
+font-optical-sizing: auto;
+font-weight:normal;
+font-style: normal;
+}
+.grey {
+    color: #bababa;
+}
+.padding-0 {
+    padding: 0;
+}
+.off-white {
+    color: #868686;
+}
+.grey-off-white {
+    color: #f5f5f5;
+}
+.margin-0 {
+    margin: 0;
+}
+.flex {
+    display: flex !important;
+}
+.no-select {
+    user-select: none;
+}
