@@ -35,13 +35,13 @@ $(()=> {
     // Main -Container
         $(".main").animate({left: '0'},1000)
         const backgrounds = [
-            'https://github.com/elhofyDesigns/ElhofyDesigns/images/main-images/1.webp',
-            'https://github.com/elhofyDesigns/ElhofyDesigns/images/main-images/2.webp',
-            'https://github.com/elhofyDesigns/ElhofyDesigns/images/main-images/3.webp',
-            'https://github.com/elhofyDesigns/ElhofyDesigns/images/main-images/4.webp',
-            'https://github.com/elhofyDesigns/ElhofyDesigns/images/main-images/5.webp',
-            'https://github.com/elhofyDesigns/ElhofyDesigns/images/main-images/6.webp',
-            'https://github.com/elhofyDesigns/ElhofyDesigns/images/main-images/7.webp',
+            'images/main-images/1.webp',
+            'images/main-images/2.webp',
+            'images/main-images/3.webp',
+            'images/main-images/4.webp',
+            'images/main-images/5.webp',
+            'images/main-images/6.webp',
+            'images/main-images/7.webp',
         ]
         let counterNow = 0
         const counter = backgrounds.length
@@ -88,9 +88,9 @@ $(()=> {
         $(this).attr("controls",'controls')
     })
     // Handle Students Container
-    const studentsCont = ['https://github.com/elhofyDesigns/ElhofyDesigns/images/students/1.webp',
-                        'https://github.com/elhofyDesigns/ElhofyDesigns/images/students/2.webp',
-                        'https://github.com/elhofyDesigns/ElhofyDesigns/images/students/3.webp']
+    const studentsCont = ['images/students/1.webp',
+                        'images/students/2.webp',
+                        'images/students/3.webp']
     let studentsCounter = 0
     let negativeCounter = 3
     $("body").on("click",'.students .students-cont .fa-angle-right',function() {
