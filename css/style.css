@@ -197,7 +197,7 @@ a {
 }
 .main .photos {
     position: relative;
-    background-image: url('../images/main-images/1.webp') !important;
+    background-image: url('../images/main-images/1.webp');
     background-size: contain;
     background-position: 200px;
     background-color: black;
