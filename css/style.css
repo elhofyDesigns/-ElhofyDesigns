@@ -890,7 +890,6 @@ footer .tag-cloud , footer .recent-posts {
     flex-direction: column;
     gap: 15px;
     margin-top: 40px;
-    border-bottom: 1px solid rgba(186, 186, 186, 0.2);
 }
 .recent-posts .available-POSTS a {
     position: relative;
@@ -909,6 +908,7 @@ footer .tag-cloud , footer .recent-posts {
     display: flex;
     gap: 10px;
     transition: var(--trans-linear);
+    border-bottom: 1px solid rgba(186, 186, 186, 0.2);
 }
 .recent-posts .available-POSTS  .posts-footer:hover  a, .recent-posts .available-POSTS  .posts-footer:hover i{
     transform: translateX(10px);
