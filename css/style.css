@@ -855,7 +855,7 @@ footer .tag-cloud , footer .recent-posts {
     transition: var(--trans-linear);
     max-width: 100%;
     text-wrap: balance;
-    line-height: 20px;
+    line-height: 30px;
 }
 .social-posts .post-link {
     color: white;
