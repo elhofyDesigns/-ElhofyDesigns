@@ -199,7 +199,7 @@ $(()=> {
                 $(".social-posts .post-title").text(POSTS[counterPosts][2])
                 $(".social-posts .post-link").attr('href' ,POSTS[counterPosts][3])
             }
-        }, 5000);
+        }, 6500);
         // Copyrights
         const DATE = new Date()
         $(".copyrights .copyrights-").text(`Copyright @ HofyDesigns - All Right Reserved - ${DATE.getFullYear()}.`)
