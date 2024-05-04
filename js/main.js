@@ -304,7 +304,6 @@ $(()=> {
                 scroll($(this),700,700,$(".hofies"))
                 scroll($(this),1100,100,$(".checkout- .container-title"))
                 scroll($(this),1200,500,$(".checkout- .container-videos-available"))
-                scroll($(this),300,300,$("footer"))
             if ($('.students').offset().top - $(this).scrollTop() < 500) {
                 $('.students').stop().animate({left : '0'},200)
             }
