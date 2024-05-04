@@ -1,5 +1,5 @@
 $(()=> {
-
+    const searchCoursesSection = $(".search-courses").offset().top
     // Contact 2 Effects
     $("body .contact2 i").hover(
         function() {
@@ -27,6 +27,9 @@ $(()=> {
     // Nav Hiding 
     $(".nav ").on("click",".burger-icon i",function() {
         $(".nav .nav-lis").toggleClass("flex")
+    })
+    $(".nav-lis a:first-child").on("click",function() {
+        $('html, body').animate({scrollTop : searchCoursesSection + 350} ,200)
     })
 
     // Main -Container
